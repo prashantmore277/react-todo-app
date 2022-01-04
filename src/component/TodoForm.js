@@ -14,7 +14,6 @@ const HandleSubmit = e =>{
         id: Math.floor(Math.random() * 10000),
         text: input
 });
-    console.log(input);
     setinput('');
 };
 return (
